@@ -1,3 +1,5 @@
 {
-    "/api/*": "/$1"
+  "/api/*": "/$1",
+  "/schools/dis/_api/web/lists/getbytitle\\(':title'\\)/items": "/:title",
+  "/sites/resourcebooking/_api/web/lists/getbytitle\\(':title'\\)/items": "/:title"
 }
