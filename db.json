@@ -2,7 +2,7 @@
   "LITimeSlotCategory": [
     {
       "odata.type": "SP.Data.LITimeSlotCategoryListItem",
-      "odata.id": "2db1e616-12a3-4c67-8ad3-f14362c2b12e",
+      "odata.id": "eca39801-50d7-4cbd-9c75-9fda45d4cd4a",
       "odata.etag": "\"1\"",
       "odata.editLink": "Web/Lists(guid'12fee783-94af-4493-8b63-b494ef1475d9')/Items(1)",
       "FileSystemObjectType": 0,
@@ -22,7 +22,7 @@
     },
     {
       "odata.type": "SP.Data.LITimeSlotCategoryListItem",
-      "odata.id": "ce2e01c7-9cf6-48a4-ac52-b83ab3474159",
+      "odata.id": "c31ef86b-e09f-41bd-835a-c94f661b332b",
       "odata.etag": "\"1\"",
       "odata.editLink": "Web/Lists(guid'12fee783-94af-4493-8b63-b494ef1475d9')/Items(2)",
       "FileSystemObjectType": 0,
@@ -42,7 +42,7 @@
     },
     {
       "odata.type": "SP.Data.LITimeSlotCategoryListItem",
-      "odata.id": "8f2af1a3-7850-4ac5-a362-9e1c7e23f47a",
+      "odata.id": "ae910f9a-1fe0-47b8-8767-c469b71e4f47",
       "odata.etag": "\"1\"",
       "odata.editLink": "Web/Lists(guid'12fee783-94af-4493-8b63-b494ef1475d9')/Items(3)",
       "FileSystemObjectType": 0,
@@ -62,7 +62,7 @@
     },
     {
       "odata.type": "SP.Data.LITimeSlotCategoryListItem",
-      "odata.id": "57f4b5cf-8ce0-45ed-8580-395db8363f18",
+      "odata.id": "6d6e372f-7b89-4b44-8ed2-3dbee57d4441",
       "odata.etag": "\"3\"",
       "odata.editLink": "Web/Lists(guid'12fee783-94af-4493-8b63-b494ef1475d9')/Items(4)",
       "FileSystemObjectType": 0,
@@ -84,51 +84,13 @@
   "LITimeSlotGroup": [
     {
       "odata.type": "SP.Data.LITimeSlotGroupListItem",
-      "odata.id": "eb0bf6a3-3608-4399-9db2-2e75d4e9ff76",
-      "odata.etag": "\"3\"",
-      "odata.editLink": "Web/Lists(guid'f3da8a50-9e4d-44ee-a050-d1e21a39a939')/Items(1)",
-      "SCTimeSlotCategory@odata.navigationLinkUrl": "Web/Lists(guid'f3da8a50-9e4d-44ee-a050-d1e21a39a939')/Items(1)/SCTimeSlotCategory",
-      "SCTimeSlotCategory": {
-        "odata.type": "SP.Data.LITimeSlotCategoryListItem",
-        "odata.id": "40445576-7c31-4232-a559-8b52c5bf5ff0",
-        "Id": 1,
-        "Title": "Primary"
-      },
-      "FileSystemObjectType": 0,
-      "Id": 1,
-      "ServerRedirectedEmbedUri": null,
-      "ServerRedirectedEmbedUrl": "",
-      "ContentTypeId": "0x0100FDCAC8F4A7FE914CB0E57EC86513E01C00DB52BA862F0C504BB86798F93AB3E85D",
-      "Title": "Primary Ramadan Timing",
-      "ComplianceAssetId": null,
-      "SCTimeSlotCategoryId": 1,
-      "SCDefault": false,
-      "SCStartDay": "Sunday",
-      "SCWorkingDays": [
-        "Sunday",
-        "Monday",
-        "Tuesday",
-        "Wednesday",
-        "Thursday",
-        "Friday"
-      ],
-      "Modified": "2019-02-05T17:39:20Z",
-      "Created": "2019-01-29T07:36:37Z",
-      "AuthorId": 9,
-      "EditorId": 9,
-      "OData__UIVersionString": "1.0",
-      "Attachments": false,
-      "GUID": "04288a33-0f33-4333-8225-5476ee83f2a5"
-    },
-    {
-      "odata.type": "SP.Data.LITimeSlotGroupListItem",
-      "odata.id": "f5fa2541-45cb-4e9c-8784-90222b277f60",
+      "odata.id": "23a73ea5-63c8-4311-b6ba-10b99fe45c9f",
       "odata.etag": "\"4\"",
       "odata.editLink": "Web/Lists(guid'f3da8a50-9e4d-44ee-a050-d1e21a39a939')/Items(2)",
       "SCTimeSlotCategory@odata.navigationLinkUrl": "Web/Lists(guid'f3da8a50-9e4d-44ee-a050-d1e21a39a939')/Items(2)/SCTimeSlotCategory",
       "SCTimeSlotCategory": {
         "odata.type": "SP.Data.LITimeSlotCategoryListItem",
-        "odata.id": "b4a873e6-f391-4e13-89dc-159a67b9ca5d",
+        "odata.id": "bc76cb3c-0226-4ba6-84c7-22dd4306d06e",
         "Id": 2,
         "Title": "Secondary"
       },
@@ -160,13 +122,51 @@
     },
     {
       "odata.type": "SP.Data.LITimeSlotGroupListItem",
-      "odata.id": "bc986283-e64f-4bd4-acf7-68bf2abb7c06",
+      "odata.id": "716be12f-c574-4653-a086-cf23e493793d",
+      "odata.etag": "\"3\"",
+      "odata.editLink": "Web/Lists(guid'f3da8a50-9e4d-44ee-a050-d1e21a39a939')/Items(1)",
+      "SCTimeSlotCategory@odata.navigationLinkUrl": "Web/Lists(guid'f3da8a50-9e4d-44ee-a050-d1e21a39a939')/Items(1)/SCTimeSlotCategory",
+      "SCTimeSlotCategory": {
+        "odata.type": "SP.Data.LITimeSlotCategoryListItem",
+        "odata.id": "a871672c-bc5a-4511-bba0-686e1d718b90",
+        "Id": 1,
+        "Title": "Primary"
+      },
+      "FileSystemObjectType": 0,
+      "Id": 1,
+      "ServerRedirectedEmbedUri": null,
+      "ServerRedirectedEmbedUrl": "",
+      "ContentTypeId": "0x0100FDCAC8F4A7FE914CB0E57EC86513E01C00DB52BA862F0C504BB86798F93AB3E85D",
+      "Title": "Primary Ramadan Timing",
+      "ComplianceAssetId": null,
+      "SCTimeSlotCategoryId": 1,
+      "SCDefault": false,
+      "SCStartDay": "Sunday",
+      "SCWorkingDays": [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "Modified": "2019-02-05T17:39:20Z",
+      "Created": "2019-01-29T07:36:37Z",
+      "AuthorId": 9,
+      "EditorId": 9,
+      "OData__UIVersionString": "1.0",
+      "Attachments": false,
+      "GUID": "04288a33-0f33-4333-8225-5476ee83f2a5"
+    },
+    {
+      "odata.type": "SP.Data.LITimeSlotGroupListItem",
+      "odata.id": "6d4e12bb-9bd4-4e87-9eeb-f6cfcfbfc7ec",
       "odata.etag": "\"4\"",
       "odata.editLink": "Web/Lists(guid'f3da8a50-9e4d-44ee-a050-d1e21a39a939')/Items(3)",
       "SCTimeSlotCategory@odata.navigationLinkUrl": "Web/Lists(guid'f3da8a50-9e4d-44ee-a050-d1e21a39a939')/Items(3)/SCTimeSlotCategory",
       "SCTimeSlotCategory": {
         "odata.type": "SP.Data.LITimeSlotCategoryListItem",
-        "odata.id": "7aa0013e-1dce-4f98-b142-8b1a60b1f899",
+        "odata.id": "5350c91b-7729-4c3d-b148-6667115c45f7",
         "Id": 1,
         "Title": "Primary"
       },
@@ -198,13 +198,13 @@
     },
     {
       "odata.type": "SP.Data.LITimeSlotGroupListItem",
-      "odata.id": "08b631be-8426-4d4f-bb0e-faa23f384094",
+      "odata.id": "ae8dc590-866b-4424-b1c3-44debdb987e5",
       "odata.etag": "\"4\"",
       "odata.editLink": "Web/Lists(guid'f3da8a50-9e4d-44ee-a050-d1e21a39a939')/Items(4)",
       "SCTimeSlotCategory@odata.navigationLinkUrl": "Web/Lists(guid'f3da8a50-9e4d-44ee-a050-d1e21a39a939')/Items(4)/SCTimeSlotCategory",
       "SCTimeSlotCategory": {
         "odata.type": "SP.Data.LITimeSlotCategoryListItem",
-        "odata.id": "b8effce1-7cc2-4a15-aca7-7a7ee35c9ba7",
+        "odata.id": "6b664b8b-4011-4520-8d96-c28109d50ded",
         "Id": 2,
         "Title": "Secondary"
       },
@@ -236,13 +236,13 @@
     },
     {
       "odata.type": "SP.Data.LITimeSlotGroupListItem",
-      "odata.id": "db70846d-5a79-40ff-93a0-6d25a4228366",
+      "odata.id": "0ab0e36c-b309-4072-94d7-f076a73be07b",
       "odata.etag": "\"4\"",
       "odata.editLink": "Web/Lists(guid'f3da8a50-9e4d-44ee-a050-d1e21a39a939')/Items(5)",
       "SCTimeSlotCategory@odata.navigationLinkUrl": "Web/Lists(guid'f3da8a50-9e4d-44ee-a050-d1e21a39a939')/Items(5)/SCTimeSlotCategory",
       "SCTimeSlotCategory": {
         "odata.type": "SP.Data.LITimeSlotCategoryListItem",
-        "odata.id": "b93ee53f-410c-4b5a-a329-c6ac689ff6d6",
+        "odata.id": "31e5c354-1f0b-4db6-a668-69ddc9801dc4",
         "Id": 3,
         "Title": "Admin"
       },
@@ -276,13 +276,13 @@
   "LITimeSlot": [
     {
       "odata.type": "SP.Data.LITimeSlotListItem",
-      "odata.id": "69b1d8bb-83e3-47e5-94f2-fbec27c3fcbe",
+      "odata.id": "31a4946f-cca0-4375-82b5-0cfddab7fb03",
       "odata.etag": "\"5\"",
       "odata.editLink": "Web/Lists(guid'b215b493-a794-4fd5-90bb-28a04b5ff6b9')/Items(2)",
       "SCTimeSlotGroup@odata.navigationLinkUrl": "Web/Lists(guid'b215b493-a794-4fd5-90bb-28a04b5ff6b9')/Items(2)/SCTimeSlotGroup",
       "SCTimeSlotGroup": {
         "odata.type": "SP.Data.LITimeSlotGroupListItem",
-        "odata.id": "3aa6c7de-af51-453b-88a7-f7e27c9f69ab",
+        "odata.id": "288f2e6f-5163-4ba1-a19a-3e80c6d4d4ff",
         "Id": 3,
         "Title": "Primary Normal Timing"
       },
@@ -306,13 +306,13 @@
     },
     {
       "odata.type": "SP.Data.LITimeSlotListItem",
-      "odata.id": "67c73efb-ecf3-40c6-ae3c-395bdafcf9d2",
+      "odata.id": "4781b90e-f949-4632-812a-88cbabf3e46d",
       "odata.etag": "\"9\"",
       "odata.editLink": "Web/Lists(guid'b215b493-a794-4fd5-90bb-28a04b5ff6b9')/Items(3)",
       "SCTimeSlotGroup@odata.navigationLinkUrl": "Web/Lists(guid'b215b493-a794-4fd5-90bb-28a04b5ff6b9')/Items(3)/SCTimeSlotGroup",
       "SCTimeSlotGroup": {
         "odata.type": "SP.Data.LITimeSlotGroupListItem",
-        "odata.id": "fe21df6b-d136-4fdc-80a2-5d01c9307cac",
+        "odata.id": "243330a9-0e24-4cf9-9f3b-4937475ed062",
         "Id": 3,
         "Title": "Primary Normal Timing"
       },
@@ -336,13 +336,13 @@
     },
     {
       "odata.type": "SP.Data.LITimeSlotListItem",
-      "odata.id": "5e3d980b-68dd-4508-920a-8c0ad6856fa6",
+      "odata.id": "040a4d08-4bf4-4171-92e2-2a338bd0b91c",
       "odata.etag": "\"4\"",
       "odata.editLink": "Web/Lists(guid'b215b493-a794-4fd5-90bb-28a04b5ff6b9')/Items(4)",
       "SCTimeSlotGroup@odata.navigationLinkUrl": "Web/Lists(guid'b215b493-a794-4fd5-90bb-28a04b5ff6b9')/Items(4)/SCTimeSlotGroup",
       "SCTimeSlotGroup": {
         "odata.type": "SP.Data.LITimeSlotGroupListItem",
-        "odata.id": "57eeb1a1-d046-4489-82f8-770dae0411eb",
+        "odata.id": "a74a6151-fccc-4b55-99ae-7bb7f1b2ff96",
         "Id": 4,
         "Title": "Secondary Normal Timing"
       },
@@ -366,13 +366,13 @@
     },
     {
       "odata.type": "SP.Data.LITimeSlotListItem",
-      "odata.id": "fe679520-a8b7-4b0d-b53a-f6f6582920c8",
+      "odata.id": "fb52f6a8-11e4-42f9-8b31-63ad7528c53b",
       "odata.etag": "\"5\"",
       "odata.editLink": "Web/Lists(guid'b215b493-a794-4fd5-90bb-28a04b5ff6b9')/Items(5)",
       "SCTimeSlotGroup@odata.navigationLinkUrl": "Web/Lists(guid'b215b493-a794-4fd5-90bb-28a04b5ff6b9')/Items(5)/SCTimeSlotGroup",
       "SCTimeSlotGroup": {
         "odata.type": "SP.Data.LITimeSlotGroupListItem",
-        "odata.id": "87c098a0-da2b-4408-8a82-9e8a315afd8b",
+        "odata.id": "cd4e58bb-cd05-4930-88ce-eba0969aafe1",
         "Id": 4,
         "Title": "Secondary Normal Timing"
       },
@@ -396,13 +396,13 @@
     },
     {
       "odata.type": "SP.Data.LITimeSlotListItem",
-      "odata.id": "ae90f6cf-0e7c-4761-80d1-4238c1909230",
+      "odata.id": "94362c2e-5a6a-41ab-bd97-130c3f9f03ab",
       "odata.etag": "\"6\"",
       "odata.editLink": "Web/Lists(guid'b215b493-a794-4fd5-90bb-28a04b5ff6b9')/Items(6)",
       "SCTimeSlotGroup@odata.navigationLinkUrl": "Web/Lists(guid'b215b493-a794-4fd5-90bb-28a04b5ff6b9')/Items(6)/SCTimeSlotGroup",
       "SCTimeSlotGroup": {
         "odata.type": "SP.Data.LITimeSlotGroupListItem",
-        "odata.id": "57a6143e-3fca-4609-9cb4-bc469ce5d3c4",
+        "odata.id": "b30db2ab-3a57-4bbc-9465-7f882b9381b6",
         "Id": 3,
         "Title": "Primary Normal Timing"
       },
@@ -426,13 +426,13 @@
     },
     {
       "odata.type": "SP.Data.LITimeSlotListItem",
-      "odata.id": "d8526739-3c26-4b68-a19c-ac30312d2f88",
+      "odata.id": "d844d4d3-9270-49f7-96bc-a778af18dc0b",
       "odata.etag": "\"5\"",
       "odata.editLink": "Web/Lists(guid'b215b493-a794-4fd5-90bb-28a04b5ff6b9')/Items(7)",
       "SCTimeSlotGroup@odata.navigationLinkUrl": "Web/Lists(guid'b215b493-a794-4fd5-90bb-28a04b5ff6b9')/Items(7)/SCTimeSlotGroup",
       "SCTimeSlotGroup": {
         "odata.type": "SP.Data.LITimeSlotGroupListItem",
-        "odata.id": "b5fe02e7-0a42-47aa-a7c4-0da94568f18e",
+        "odata.id": "e2013b82-afa1-4a32-bc90-26206727a23e",
         "Id": 3,
         "Title": "Primary Normal Timing"
       },
@@ -456,13 +456,13 @@
     },
     {
       "odata.type": "SP.Data.LITimeSlotListItem",
-      "odata.id": "47d4f333-9dff-4ded-9b69-5a3ad00c8054",
+      "odata.id": "0d09cbe1-372a-498b-afe6-e907472b463b",
       "odata.etag": "\"3\"",
       "odata.editLink": "Web/Lists(guid'b215b493-a794-4fd5-90bb-28a04b5ff6b9')/Items(9)",
       "SCTimeSlotGroup@odata.navigationLinkUrl": "Web/Lists(guid'b215b493-a794-4fd5-90bb-28a04b5ff6b9')/Items(9)/SCTimeSlotGroup",
       "SCTimeSlotGroup": {
         "odata.type": "SP.Data.LITimeSlotGroupListItem",
-        "odata.id": "a08eaff1-c58e-422e-9ed5-e718b58f2ffb",
+        "odata.id": "6a1183cd-cc37-4bc1-aff3-c929f2307500",
         "Id": 4,
         "Title": "Secondary Normal Timing"
       },
@@ -486,13 +486,13 @@
     },
     {
       "odata.type": "SP.Data.LITimeSlotListItem",
-      "odata.id": "cc9b3186-fbf4-46db-af13-e24120e7bceb",
+      "odata.id": "34319273-60ec-42de-8aee-02554289da4d",
       "odata.etag": "\"4\"",
       "odata.editLink": "Web/Lists(guid'b215b493-a794-4fd5-90bb-28a04b5ff6b9')/Items(8)",
       "SCTimeSlotGroup@odata.navigationLinkUrl": "Web/Lists(guid'b215b493-a794-4fd5-90bb-28a04b5ff6b9')/Items(8)/SCTimeSlotGroup",
       "SCTimeSlotGroup": {
         "odata.type": "SP.Data.LITimeSlotGroupListItem",
-        "odata.id": "98349893-3a18-4dfa-b2bf-f265bff58e17",
+        "odata.id": "6cb2d991-23bd-46cb-a1ca-ef7a21aba564",
         "Id": 4,
         "Title": "Secondary Normal Timing"
       },
@@ -518,20 +518,20 @@
   "LIResource": [
     {
       "odata.type": "SP.Data.LIRescourceListItem",
-      "odata.id": "8c868be4-7142-4d61-943c-ad2169e2578f",
+      "odata.id": "8904b2c0-5477-40bd-bcad-ff87633625b9",
       "odata.etag": "\"5\"",
       "odata.editLink": "Web/Lists(guid'a3883330-9713-4d24-a2d8-73e4b240700c')/Items(1)",
       "SCCustodian@odata.navigationLinkUrl": "Web/Lists(guid'a3883330-9713-4d24-a2d8-73e4b240700c')/Items(1)/SCCustodian",
       "SCCustodian": {
         "odata.type": "SP.Data.UserInfoItem",
-        "odata.id": "ad18f2d5-367a-4987-ac41-1f8e36ca347e",
+        "odata.id": "f5f83a37-22ac-469f-8e59-67b2fa8e38f3",
         "Id": 11,
         "Title": "User One"
       },
       "SCResourceGroup@odata.navigationLinkUrl": "Web/Lists(guid'a3883330-9713-4d24-a2d8-73e4b240700c')/Items(1)/SCResourceGroup",
       "SCResourceGroup": {
         "odata.type": "SP.Data.LIResourceGroupListItem",
-        "odata.id": "c7423ae7-f776-4b0f-a20c-ef993ad4d8dd",
+        "odata.id": "8b8f34bd-1d57-462d-b2d5-e8fc6546e6be",
         "Id": 2,
         "Title": "IPAD"
       },
@@ -563,20 +563,20 @@
     },
     {
       "odata.type": "SP.Data.LIRescourceListItem",
-      "odata.id": "88e99ef7-f000-4f5d-b899-4fa8355d9a2a",
+      "odata.id": "3049dbb8-aa5d-4086-88cd-80bde9b886ac",
       "odata.etag": "\"2\"",
       "odata.editLink": "Web/Lists(guid'a3883330-9713-4d24-a2d8-73e4b240700c')/Items(2)",
       "SCCustodian@odata.navigationLinkUrl": "Web/Lists(guid'a3883330-9713-4d24-a2d8-73e4b240700c')/Items(2)/SCCustodian",
       "SCCustodian": {
         "odata.type": "SP.Data.UserInfoItem",
-        "odata.id": "fedf92f2-ecb4-49dc-99b9-de94a05e054f",
+        "odata.id": "b7705e9f-2a12-418c-9071-a0e220122dd4",
         "Id": 11,
         "Title": "User One"
       },
       "SCResourceGroup@odata.navigationLinkUrl": "Web/Lists(guid'a3883330-9713-4d24-a2d8-73e4b240700c')/Items(2)/SCResourceGroup",
       "SCResourceGroup": {
         "odata.type": "SP.Data.LIResourceGroupListItem",
-        "odata.id": "e0306e78-2c70-47f2-8474-c08c11d34390",
+        "odata.id": "5b3d5f3b-fb5b-4bfd-997a-fe829ab98521",
         "Id": 2,
         "Title": "IPAD"
       },
@@ -608,20 +608,20 @@
     },
     {
       "odata.type": "SP.Data.LIRescourceListItem",
-      "odata.id": "d411b66c-303c-45bc-8495-bc112b63856b",
+      "odata.id": "1aafd313-c66b-40bb-b61e-c226faf2bfb4",
       "odata.etag": "\"2\"",
       "odata.editLink": "Web/Lists(guid'a3883330-9713-4d24-a2d8-73e4b240700c')/Items(3)",
       "SCCustodian@odata.navigationLinkUrl": "Web/Lists(guid'a3883330-9713-4d24-a2d8-73e4b240700c')/Items(3)/SCCustodian",
       "SCCustodian": {
         "odata.type": "SP.Data.UserInfoItem",
-        "odata.id": "097640c0-a41a-47c8-b96a-23c656dac8d5",
+        "odata.id": "b502bda2-7b68-4452-aee1-a7a5c6e7ca59",
         "Id": 11,
         "Title": "User One"
       },
       "SCResourceGroup@odata.navigationLinkUrl": "Web/Lists(guid'a3883330-9713-4d24-a2d8-73e4b240700c')/Items(3)/SCResourceGroup",
       "SCResourceGroup": {
         "odata.type": "SP.Data.LIResourceGroupListItem",
-        "odata.id": "fec7a5e1-68b5-49f0-b10e-7004743adab1",
+        "odata.id": "20addef4-0078-4481-924a-5d4a97415ebd",
         "Id": 2,
         "Title": "IPAD"
       },
@@ -653,20 +653,20 @@
     },
     {
       "odata.type": "SP.Data.LIRescourceListItem",
-      "odata.id": "94556e1e-d6de-462f-a02f-3bfcbab8cfd0",
+      "odata.id": "95b819d0-8cde-4dad-8c8e-a4fd6cf7e43e",
       "odata.etag": "\"2\"",
       "odata.editLink": "Web/Lists(guid'a3883330-9713-4d24-a2d8-73e4b240700c')/Items(4)",
       "SCCustodian@odata.navigationLinkUrl": "Web/Lists(guid'a3883330-9713-4d24-a2d8-73e4b240700c')/Items(4)/SCCustodian",
       "SCCustodian": {
         "odata.type": "SP.Data.UserInfoItem",
-        "odata.id": "4e89d091-9dfa-4954-8c71-d8ceb0b9e3b8",
+        "odata.id": "8b845160-3ed3-4e27-beec-60bfbbb80f79",
         "Id": 11,
         "Title": "User One"
       },
       "SCResourceGroup@odata.navigationLinkUrl": "Web/Lists(guid'a3883330-9713-4d24-a2d8-73e4b240700c')/Items(4)/SCResourceGroup",
       "SCResourceGroup": {
         "odata.type": "SP.Data.LIResourceGroupListItem",
-        "odata.id": "9fcd65ce-ee18-45c0-a264-763ed2d909a6",
+        "odata.id": "219c23f5-c942-4fa2-9215-823ec6c059bf",
         "Id": 2,
         "Title": "IPAD"
       },
@@ -698,20 +698,20 @@
     },
     {
       "odata.type": "SP.Data.LIRescourceListItem",
-      "odata.id": "5d670ae1-9fbb-4dfc-b9d1-9d09b7511309",
+      "odata.id": "560545a0-e81c-427c-8d19-d035e2330d8a",
       "odata.etag": "\"2\"",
       "odata.editLink": "Web/Lists(guid'a3883330-9713-4d24-a2d8-73e4b240700c')/Items(5)",
       "SCCustodian@odata.navigationLinkUrl": "Web/Lists(guid'a3883330-9713-4d24-a2d8-73e4b240700c')/Items(5)/SCCustodian",
       "SCCustodian": {
         "odata.type": "SP.Data.UserInfoItem",
-        "odata.id": "93ff4703-14fa-4373-87d0-f0b41c12fa80",
+        "odata.id": "08e6c6a3-8c64-4d1b-999e-60005e72a198",
         "Id": 12,
         "Title": "User Two"
       },
       "SCResourceGroup@odata.navigationLinkUrl": "Web/Lists(guid'a3883330-9713-4d24-a2d8-73e4b240700c')/Items(5)/SCResourceGroup",
       "SCResourceGroup": {
         "odata.type": "SP.Data.LIResourceGroupListItem",
-        "odata.id": "7bb8c884-e895-48fb-85cd-8879324a4dd9",
+        "odata.id": "925b24d2-16ec-45df-b086-ab39e7bd8447",
         "Id": 1,
         "Title": "ICT Lab"
       },
@@ -743,20 +743,20 @@
     },
     {
       "odata.type": "SP.Data.LIRescourceListItem",
-      "odata.id": "29c75815-5f70-4b9c-8d8c-d2ed04b4d0ba",
+      "odata.id": "6fe02894-203a-425b-946e-c77f214472dc",
       "odata.etag": "\"3\"",
       "odata.editLink": "Web/Lists(guid'a3883330-9713-4d24-a2d8-73e4b240700c')/Items(6)",
       "SCCustodian@odata.navigationLinkUrl": "Web/Lists(guid'a3883330-9713-4d24-a2d8-73e4b240700c')/Items(6)/SCCustodian",
       "SCCustodian": {
         "odata.type": "SP.Data.UserInfoItem",
-        "odata.id": "d55f3a6a-0f0e-401e-bd74-90554b02ad99",
+        "odata.id": "f3591709-edd7-45ef-8493-6624216daacd",
         "Id": 13,
         "Title": "User Three"
       },
       "SCResourceGroup@odata.navigationLinkUrl": "Web/Lists(guid'a3883330-9713-4d24-a2d8-73e4b240700c')/Items(6)/SCResourceGroup",
       "SCResourceGroup": {
         "odata.type": "SP.Data.LIResourceGroupListItem",
-        "odata.id": "901aab50-d21c-4855-b44f-c64777432563",
+        "odata.id": "c5e4e363-cb21-43b3-ad4f-3f38fda81999",
         "Id": 1,
         "Title": "ICT Lab"
       },
@@ -790,20 +790,20 @@
   "LIResourceGroup": [
     {
       "odata.type": "SP.Data.LIResourceGroupListItem",
-      "odata.id": "f29fdf26-69ae-43f0-9ea4-8ccc9815c040",
+      "odata.id": "d4acbf6e-85c2-47e2-97e4-8bc0bb02cb92",
       "odata.etag": "\"5\"",
       "odata.editLink": "Web/Lists(guid'3aaf1185-e918-4bae-a3c0-bcf7e0c355dc')/Items(1)",
       "SCCustodian@odata.navigationLinkUrl": "Web/Lists(guid'3aaf1185-e918-4bae-a3c0-bcf7e0c355dc')/Items(1)/SCCustodian",
       "SCCustodian": {
         "odata.type": "SP.Data.UserInfoItem",
-        "odata.id": "2fbf8a82-0cc8-48a7-93a7-2c15f2cadb68",
+        "odata.id": "95651d78-0131-42a3-9679-53abe3dbf41d",
         "Id": 11,
         "Title": "User One"
       },
       "SCTimeSlotCategory@odata.navigationLinkUrl": "Web/Lists(guid'3aaf1185-e918-4bae-a3c0-bcf7e0c355dc')/Items(1)/SCTimeSlotCategory",
       "SCTimeSlotCategory": {
         "odata.type": "SP.Data.LITimeSlotCategoryListItem",
-        "odata.id": "ac65d39d-1faf-4693-811b-caef9c8918fa",
+        "odata.id": "c04d9427-6736-47d2-a611-a1000463ea16",
         "Id": 2,
         "Title": "Secondary"
       },
@@ -827,20 +827,20 @@
     },
     {
       "odata.type": "SP.Data.LIResourceGroupListItem",
-      "odata.id": "6aaf5be9-1395-4b3c-a7dd-fdf8695e3999",
+      "odata.id": "08617ff3-acfb-4934-af55-41c96d9f13d2",
       "odata.etag": "\"3\"",
       "odata.editLink": "Web/Lists(guid'3aaf1185-e918-4bae-a3c0-bcf7e0c355dc')/Items(2)",
       "SCCustodian@odata.navigationLinkUrl": "Web/Lists(guid'3aaf1185-e918-4bae-a3c0-bcf7e0c355dc')/Items(2)/SCCustodian",
       "SCCustodian": {
         "odata.type": "SP.Data.UserInfoItem",
-        "odata.id": "bf092d87-11b7-4ccc-9432-8a8a0cef01ca",
+        "odata.id": "a880cc23-bd2c-4c17-9ef1-66e21f1e91dd",
         "Id": 11,
         "Title": "User One"
       },
       "SCTimeSlotCategory@odata.navigationLinkUrl": "Web/Lists(guid'3aaf1185-e918-4bae-a3c0-bcf7e0c355dc')/Items(2)/SCTimeSlotCategory",
       "SCTimeSlotCategory": {
         "odata.type": "SP.Data.LITimeSlotCategoryListItem",
-        "odata.id": "d6cd81a9-d51c-450d-897b-27aa4b74f8c3",
+        "odata.id": "1528c943-8054-4460-949e-09441e0e3e88",
         "Id": 1,
         "Title": "Primary"
       },
@@ -866,65 +866,13 @@
   "LIAccessories": [
     {
       "odata.type": "SP.Data.LIAccessoriesListItem",
-      "odata.id": "4ca579e0-041b-475a-b8f2-f5cc4cc8723c",
-      "odata.etag": "\"4\"",
-      "odata.editLink": "Web/Lists(guid'3837c0db-c760-422a-b612-0078108c3ab2')/Items(1)",
-      "SCCustodian@odata.navigationLinkUrl": "Web/Lists(guid'3837c0db-c760-422a-b612-0078108c3ab2')/Items(1)/SCCustodian",
-      "SCCustodian": {
-        "odata.type": "SP.Data.UserInfoItem",
-        "odata.id": "096fd686-abf4-4975-aae3-08ab8654aad5",
-        "Id": 11,
-        "Title": "User One"
-      },
-      "SCResource@odata.navigationLinkUrl": "Web/Lists(guid'3837c0db-c760-422a-b612-0078108c3ab2')/Items(1)/SCResource",
-      "SCResource": [
-        {
-          "odata.type": "SP.Data.LIRescourceListItem",
-          "odata.id": "c0c6c90e-c846-4042-8f2c-62cbe7da9762",
-          "Id": 6,
-          "Title": "M2"
-        },
-        {
-          "odata.type": "SP.Data.LIRescourceListItem",
-          "odata.id": "19cb9987-e6c4-4477-abc6-93467f8a995a",
-          "Id": 5,
-          "Title": "U8"
-        }
-      ],
-      "FileSystemObjectType": 0,
-      "Id": 1,
-      "ServerRedirectedEmbedUri": null,
-      "ServerRedirectedEmbedUrl": "",
-      "ContentTypeId": "0x0100343161A42CB565458CCE18540BEE4F9900F76239F9234AA74A8838BC786BD3A0FA",
-      "Title": "Table",
-      "ComplianceAssetId": null,
-      "SCName": "Table",
-      "SCDescription": null,
-      "SCMaxCapacity": 20,
-      "SCBatchSize": 5,
-      "SCCustodianId": 11,
-      "SCCustodianStringId": "11",
-      "SCResourceId": [
-        6,
-        5
-      ],
-      "Modified": "2019-01-30T04:25:44Z",
-      "Created": "2018-12-12T04:49:45Z",
-      "AuthorId": 9,
-      "EditorId": 9,
-      "OData__UIVersionString": "1.0",
-      "Attachments": false,
-      "GUID": "2e8310ec-de05-4d43-b97b-1ee9855c3807"
-    },
-    {
-      "odata.type": "SP.Data.LIAccessoriesListItem",
-      "odata.id": "566cf6e8-db88-44fd-9ebf-cfa72c2a11d8",
+      "odata.id": "9376dd4b-c71e-4e1a-9c6d-1e4ded75a9ad",
       "odata.etag": "\"4\"",
       "odata.editLink": "Web/Lists(guid'3837c0db-c760-422a-b612-0078108c3ab2')/Items(2)",
       "SCCustodian@odata.navigationLinkUrl": "Web/Lists(guid'3837c0db-c760-422a-b612-0078108c3ab2')/Items(2)/SCCustodian",
       "SCCustodian": {
         "odata.type": "SP.Data.UserInfoItem",
-        "odata.id": "2db1abbe-b451-45aa-adde-c5390c6e3719",
+        "odata.id": "e3b3ed2e-6f08-4b5b-8365-9484cf2c6e45",
         "Id": 12,
         "Title": "User Two"
       },
@@ -932,13 +880,13 @@
       "SCResource": [
         {
           "odata.type": "SP.Data.LIRescourceListItem",
-          "odata.id": "4fb239fc-e9d1-440d-ab78-685b3caa2169",
+          "odata.id": "998342db-6ca2-4a4f-abcd-3a0ba739bf8d",
           "Id": 6,
           "Title": "M2"
         },
         {
           "odata.type": "SP.Data.LIRescourceListItem",
-          "odata.id": "8c2122b5-0912-4275-8bac-13094bf0c7bf",
+          "odata.id": "ff67dd20-d27f-40a2-9125-eff294478985",
           "Id": 5,
           "Title": "U8"
         }
@@ -970,13 +918,65 @@
     },
     {
       "odata.type": "SP.Data.LIAccessoriesListItem",
-      "odata.id": "f277ef20-1aaa-43c9-9b5d-0413a80cbdd8",
+      "odata.id": "3d697040-e84b-4863-8431-7e97c6e63281",
+      "odata.etag": "\"4\"",
+      "odata.editLink": "Web/Lists(guid'3837c0db-c760-422a-b612-0078108c3ab2')/Items(1)",
+      "SCCustodian@odata.navigationLinkUrl": "Web/Lists(guid'3837c0db-c760-422a-b612-0078108c3ab2')/Items(1)/SCCustodian",
+      "SCCustodian": {
+        "odata.type": "SP.Data.UserInfoItem",
+        "odata.id": "416f77cb-f73d-4df1-9496-2ec5a9756011",
+        "Id": 11,
+        "Title": "User One"
+      },
+      "SCResource@odata.navigationLinkUrl": "Web/Lists(guid'3837c0db-c760-422a-b612-0078108c3ab2')/Items(1)/SCResource",
+      "SCResource": [
+        {
+          "odata.type": "SP.Data.LIRescourceListItem",
+          "odata.id": "abe4f4db-f306-494b-85f5-1e3ebc72bd16",
+          "Id": 6,
+          "Title": "M2"
+        },
+        {
+          "odata.type": "SP.Data.LIRescourceListItem",
+          "odata.id": "4dde6b06-c264-47fa-8b12-08c61aae3061",
+          "Id": 5,
+          "Title": "U8"
+        }
+      ],
+      "FileSystemObjectType": 0,
+      "Id": 1,
+      "ServerRedirectedEmbedUri": null,
+      "ServerRedirectedEmbedUrl": "",
+      "ContentTypeId": "0x0100343161A42CB565458CCE18540BEE4F9900F76239F9234AA74A8838BC786BD3A0FA",
+      "Title": "Table",
+      "ComplianceAssetId": null,
+      "SCName": "Table",
+      "SCDescription": null,
+      "SCMaxCapacity": 20,
+      "SCBatchSize": 5,
+      "SCCustodianId": 11,
+      "SCCustodianStringId": "11",
+      "SCResourceId": [
+        6,
+        5
+      ],
+      "Modified": "2019-01-30T04:25:44Z",
+      "Created": "2018-12-12T04:49:45Z",
+      "AuthorId": 9,
+      "EditorId": 9,
+      "OData__UIVersionString": "1.0",
+      "Attachments": false,
+      "GUID": "2e8310ec-de05-4d43-b97b-1ee9855c3807"
+    },
+    {
+      "odata.type": "SP.Data.LIAccessoriesListItem",
+      "odata.id": "d4935a43-2925-42b2-be6a-d17debf30895",
       "odata.etag": "\"4\"",
       "odata.editLink": "Web/Lists(guid'3837c0db-c760-422a-b612-0078108c3ab2')/Items(3)",
       "SCCustodian@odata.navigationLinkUrl": "Web/Lists(guid'3837c0db-c760-422a-b612-0078108c3ab2')/Items(3)/SCCustodian",
       "SCCustodian": {
         "odata.type": "SP.Data.UserInfoItem",
-        "odata.id": "d1d54427-e572-47aa-8d97-0ef08d133efa",
+        "odata.id": "ebc37795-d577-4cbd-a34c-d1b89d78a794",
         "Id": 13,
         "Title": "User Three"
       },
@@ -984,37 +984,37 @@
       "SCResource": [
         {
           "odata.type": "SP.Data.LIRescourceListItem",
-          "odata.id": "a6604a4d-06cd-4ea1-aff2-f95b869e1ec8",
+          "odata.id": "23ae80e9-c856-4643-bffd-4c524bfd96a5",
           "Id": 1,
           "Title": "IPAD Black"
         },
         {
           "odata.type": "SP.Data.LIRescourceListItem",
-          "odata.id": "2d0baafc-d701-4195-9e9d-7903595ebb2d",
+          "odata.id": "f1f425eb-ceb2-453a-a6f0-78a268798047",
           "Id": 4,
           "Title": "IPAD Blue"
         },
         {
           "odata.type": "SP.Data.LIRescourceListItem",
-          "odata.id": "44e294fc-62a0-49f8-890f-7e19f543c0ab",
+          "odata.id": "24ada931-59e5-4283-9b36-c756467aac1a",
           "Id": 2,
           "Title": "IPAD Pink"
         },
         {
           "odata.type": "SP.Data.LIRescourceListItem",
-          "odata.id": "77442458-fad3-48c0-8305-94ea461281fb",
+          "odata.id": "8c90724e-1adc-4948-8e4f-71ec9995b8b4",
           "Id": 3,
           "Title": "IPAD White"
         },
         {
           "odata.type": "SP.Data.LIRescourceListItem",
-          "odata.id": "5c3e336e-d62c-457e-8dd5-d51ff99221c6",
+          "odata.id": "556eee5e-b3a4-41bc-8377-d24d0a373ea5",
           "Id": 6,
           "Title": "M2"
         },
         {
           "odata.type": "SP.Data.LIRescourceListItem",
-          "odata.id": "330f3f1c-1275-4070-9896-8d7641b6e334",
+          "odata.id": "61baae1b-3643-4554-aa08-e4d555f6c131",
           "Id": 5,
           "Title": "U8"
         }
@@ -1050,13 +1050,13 @@
     },
     {
       "odata.type": "SP.Data.LIAccessoriesListItem",
-      "odata.id": "145917d8-b912-4d23-95e8-8e748cf51d0d",
+      "odata.id": "fdf73b03-09d6-4f42-b6f6-e174db376ce8",
       "odata.etag": "\"4\"",
       "odata.editLink": "Web/Lists(guid'3837c0db-c760-422a-b612-0078108c3ab2')/Items(4)",
       "SCCustodian@odata.navigationLinkUrl": "Web/Lists(guid'3837c0db-c760-422a-b612-0078108c3ab2')/Items(4)/SCCustodian",
       "SCCustodian": {
         "odata.type": "SP.Data.UserInfoItem",
-        "odata.id": "b52211bb-7e96-4c8e-b10b-ea5081b78359",
+        "odata.id": "903a7b7b-12ea-4743-8cd2-8262b927de95",
         "Id": 12,
         "Title": "User Two"
       },
@@ -1064,25 +1064,25 @@
       "SCResource": [
         {
           "odata.type": "SP.Data.LIRescourceListItem",
-          "odata.id": "c3d7e6b5-6696-4fe2-ab39-bc0f81f5cc9b",
+          "odata.id": "7a38da32-37e2-4d91-92b4-ca50adc5ed01",
           "Id": 1,
           "Title": "IPAD Black"
         },
         {
           "odata.type": "SP.Data.LIRescourceListItem",
-          "odata.id": "407bfb02-5e9a-4c32-b0f5-e610cc433309",
+          "odata.id": "f1a0158d-71c6-4991-ada1-1962a04d8788",
           "Id": 4,
           "Title": "IPAD Blue"
         },
         {
           "odata.type": "SP.Data.LIRescourceListItem",
-          "odata.id": "d49ef40a-91ab-4faa-bc6a-f06d608a5540",
+          "odata.id": "196c8795-b2ee-4f22-aefe-d9314a1a0d06",
           "Id": 2,
           "Title": "IPAD Pink"
         },
         {
           "odata.type": "SP.Data.LIRescourceListItem",
-          "odata.id": "9bc5f815-cd69-4544-80d8-66e0e59069f2",
+          "odata.id": "97f92ad4-8c2f-48cd-9c80-374571ff7b37",
           "Id": 3,
           "Title": "IPAD White"
         }
@@ -1118,30 +1118,7 @@
   "LIAcademicYear": [
     {
       "odata.type": "SP.Data.LIAcademicYearListItem",
-      "odata.id": "7695c772-2edf-4a35-ab01-dd24bb8c2ed9",
-      "odata.etag": "\"2\"",
-      "odata.editLink": "Web/Lists(guid'a7980260-b766-415c-9c70-a1391cf62470')/Items(1)",
-      "FileSystemObjectType": 0,
-      "Id": 1,
-      "ServerRedirectedEmbedUri": null,
-      "ServerRedirectedEmbedUrl": "",
-      "ContentTypeId": "0x0100E90F624C80CBBB4692809F455CF584D9008C18980CDEC87A45A0EBF7A6C3F556BD",
-      "Title": "2018-2019",
-      "ComplianceAssetId": null,
-      "SCEndDate": "2019-08-30T20:00:00Z",
-      "SCStartDate": "2018-09-01T20:00:00Z",
-      "SCName": "2018-2019",
-      "Modified": "2019-01-29T06:04:50Z",
-      "Created": "2018-12-13T07:44:13Z",
-      "AuthorId": 9,
-      "EditorId": 9,
-      "OData__UIVersionString": "1.0",
-      "Attachments": false,
-      "GUID": "c8e7625b-c786-4453-b87c-edd38d8070e0"
-    },
-    {
-      "odata.type": "SP.Data.LIAcademicYearListItem",
-      "odata.id": "da91d432-b961-4dbf-b64b-04b658facd98",
+      "odata.id": "c5ffd02c-dcf0-49aa-a173-736ef258e063",
       "odata.etag": "\"2\"",
       "odata.editLink": "Web/Lists(guid'a7980260-b766-415c-9c70-a1391cf62470')/Items(2)",
       "FileSystemObjectType": 0,
@@ -1161,62 +1138,48 @@
       "OData__UIVersionString": "1.0",
       "Attachments": false,
       "GUID": "4ea4fd67-7521-4159-99ee-69192a1a88e4"
+    },
+    {
+      "odata.type": "SP.Data.LIAcademicYearListItem",
+      "odata.id": "894f9cb2-24bd-479c-82be-121f5a204d65",
+      "odata.etag": "\"2\"",
+      "odata.editLink": "Web/Lists(guid'a7980260-b766-415c-9c70-a1391cf62470')/Items(1)",
+      "FileSystemObjectType": 0,
+      "Id": 1,
+      "ServerRedirectedEmbedUri": null,
+      "ServerRedirectedEmbedUrl": "",
+      "ContentTypeId": "0x0100E90F624C80CBBB4692809F455CF584D9008C18980CDEC87A45A0EBF7A6C3F556BD",
+      "Title": "2018-2019",
+      "ComplianceAssetId": null,
+      "SCEndDate": "2019-08-30T20:00:00Z",
+      "SCStartDate": "2018-09-01T20:00:00Z",
+      "SCName": "2018-2019",
+      "Modified": "2019-01-29T06:04:50Z",
+      "Created": "2018-12-13T07:44:13Z",
+      "AuthorId": 9,
+      "EditorId": 9,
+      "OData__UIVersionString": "1.0",
+      "Attachments": false,
+      "GUID": "c8e7625b-c786-4453-b87c-edd38d8070e0"
     }
   ],
   "LIWeekMapping": [
     {
       "odata.type": "SP.Data.LIWeekMappingListItem",
-      "odata.id": "21fa0544-822c-47d8-ae1b-5336d6da0421",
-      "odata.etag": "\"3\"",
-      "odata.editLink": "Web/Lists(guid'ee63869f-f25a-4e40-8d1d-3708007f11ea')/Items(1)",
-      "SCAcademicYear@odata.navigationLinkUrl": "Web/Lists(guid'ee63869f-f25a-4e40-8d1d-3708007f11ea')/Items(1)/SCAcademicYear",
-      "SCAcademicYear": {
-        "odata.type": "SP.Data.LIAcademicYearListItem",
-        "odata.id": "1a672baf-f898-4724-ba08-275baf87b719",
-        "Id": 1,
-        "Title": "2018-2019"
-      },
-      "SCTimeSlotGroup@odata.navigationLinkUrl": "Web/Lists(guid'ee63869f-f25a-4e40-8d1d-3708007f11ea')/Items(1)/SCTimeSlotGroup",
-      "SCTimeSlotGroup": {
-        "odata.type": "SP.Data.LITimeSlotGroupListItem",
-        "odata.id": "a245b4b9-8137-4fe5-b615-25c5fb66ad4a",
-        "Id": 3,
-        "Title": "Primary Normal Timing"
-      },
-      "FileSystemObjectType": 0,
-      "Id": 1,
-      "ServerRedirectedEmbedUri": null,
-      "ServerRedirectedEmbedUrl": "",
-      "ContentTypeId": "0x01006692F9D32E9FD3488E959C71313B17F100ABF519632BF9D54894CE7C197D3F27DC",
-      "Title": "Primary Timing",
-      "ComplianceAssetId": null,
-      "SCAcademicYearId": 1,
-      "SCTimeSlotGroupId": 3,
-      "SCWeekStartDate": "2018-09-01T20:00:00Z",
-      "Modified": "2019-01-29T14:07:43Z",
-      "Created": "2019-01-27T05:56:29Z",
-      "AuthorId": 9,
-      "EditorId": 9,
-      "OData__UIVersionString": "1.0",
-      "Attachments": false,
-      "GUID": "8de93839-d3c6-4454-ac09-0289c96f0cc1"
-    },
-    {
-      "odata.type": "SP.Data.LIWeekMappingListItem",
-      "odata.id": "0c51193d-1594-44e3-9d27-c199c9f58e01",
+      "odata.id": "8c04b41e-d030-4872-b365-a11ed7a8ab9a",
       "odata.etag": "\"3\"",
       "odata.editLink": "Web/Lists(guid'ee63869f-f25a-4e40-8d1d-3708007f11ea')/Items(2)",
       "SCAcademicYear@odata.navigationLinkUrl": "Web/Lists(guid'ee63869f-f25a-4e40-8d1d-3708007f11ea')/Items(2)/SCAcademicYear",
       "SCAcademicYear": {
         "odata.type": "SP.Data.LIAcademicYearListItem",
-        "odata.id": "d37cedd2-df4e-4bb4-a5e1-1956dd03057f",
+        "odata.id": "ab3010bc-c1dc-4287-8164-6be53b828578",
         "Id": 1,
         "Title": "2018-2019"
       },
       "SCTimeSlotGroup@odata.navigationLinkUrl": "Web/Lists(guid'ee63869f-f25a-4e40-8d1d-3708007f11ea')/Items(2)/SCTimeSlotGroup",
       "SCTimeSlotGroup": {
         "odata.type": "SP.Data.LITimeSlotGroupListItem",
-        "odata.id": "5ac9d6d9-0642-4d3f-995a-2e282ce58a2a",
+        "odata.id": "45ca82f7-d0f0-4b88-b611-90a7b66724ae",
         "Id": 3,
         "Title": "Primary Normal Timing"
       },
@@ -1240,20 +1203,57 @@
     },
     {
       "odata.type": "SP.Data.LIWeekMappingListItem",
-      "odata.id": "8121639c-258c-44a0-87f9-e6d8ba605769",
+      "odata.id": "0ad0b80b-844a-459f-ae13-b3e7a90dc3b1",
+      "odata.etag": "\"3\"",
+      "odata.editLink": "Web/Lists(guid'ee63869f-f25a-4e40-8d1d-3708007f11ea')/Items(1)",
+      "SCAcademicYear@odata.navigationLinkUrl": "Web/Lists(guid'ee63869f-f25a-4e40-8d1d-3708007f11ea')/Items(1)/SCAcademicYear",
+      "SCAcademicYear": {
+        "odata.type": "SP.Data.LIAcademicYearListItem",
+        "odata.id": "14845b5a-87f7-4621-8fdd-a748a8303dfe",
+        "Id": 1,
+        "Title": "2018-2019"
+      },
+      "SCTimeSlotGroup@odata.navigationLinkUrl": "Web/Lists(guid'ee63869f-f25a-4e40-8d1d-3708007f11ea')/Items(1)/SCTimeSlotGroup",
+      "SCTimeSlotGroup": {
+        "odata.type": "SP.Data.LITimeSlotGroupListItem",
+        "odata.id": "9d80ddc3-9675-428b-98b4-fcf90c5a2567",
+        "Id": 3,
+        "Title": "Primary Normal Timing"
+      },
+      "FileSystemObjectType": 0,
+      "Id": 1,
+      "ServerRedirectedEmbedUri": null,
+      "ServerRedirectedEmbedUrl": "",
+      "ContentTypeId": "0x01006692F9D32E9FD3488E959C71313B17F100ABF519632BF9D54894CE7C197D3F27DC",
+      "Title": "Primary Timing",
+      "ComplianceAssetId": null,
+      "SCAcademicYearId": 1,
+      "SCTimeSlotGroupId": 3,
+      "SCWeekStartDate": "2018-09-01T20:00:00Z",
+      "Modified": "2019-01-29T14:07:43Z",
+      "Created": "2019-01-27T05:56:29Z",
+      "AuthorId": 9,
+      "EditorId": 9,
+      "OData__UIVersionString": "1.0",
+      "Attachments": false,
+      "GUID": "8de93839-d3c6-4454-ac09-0289c96f0cc1"
+    },
+    {
+      "odata.type": "SP.Data.LIWeekMappingListItem",
+      "odata.id": "76251b76-154e-41cd-a05d-4bfccde3f72c",
       "odata.etag": "\"4\"",
       "odata.editLink": "Web/Lists(guid'ee63869f-f25a-4e40-8d1d-3708007f11ea')/Items(3)",
       "SCAcademicYear@odata.navigationLinkUrl": "Web/Lists(guid'ee63869f-f25a-4e40-8d1d-3708007f11ea')/Items(3)/SCAcademicYear",
       "SCAcademicYear": {
         "odata.type": "SP.Data.LIAcademicYearListItem",
-        "odata.id": "71afe344-8280-4937-94f1-419276be0e8a",
+        "odata.id": "6cb01f0f-7e10-45a4-a3e2-2ea1f9782617",
         "Id": 1,
         "Title": "2018-2019"
       },
       "SCTimeSlotGroup@odata.navigationLinkUrl": "Web/Lists(guid'ee63869f-f25a-4e40-8d1d-3708007f11ea')/Items(3)/SCTimeSlotGroup",
       "SCTimeSlotGroup": {
         "odata.type": "SP.Data.LITimeSlotGroupListItem",
-        "odata.id": "d0f9bbf3-068e-4f15-a4e7-3ecfa9c1b2dd",
+        "odata.id": "2248c07c-7a29-472b-b064-a57e581dff46",
         "Id": 3,
         "Title": "Primary Normal Timing"
       },
@@ -1277,20 +1277,20 @@
     },
     {
       "odata.type": "SP.Data.LIWeekMappingListItem",
-      "odata.id": "392ea7cb-79a9-49b3-b1a5-608be45c5fbb",
+      "odata.id": "ba04aca2-017e-4f34-b731-818e4463d507",
       "odata.etag": "\"3\"",
       "odata.editLink": "Web/Lists(guid'ee63869f-f25a-4e40-8d1d-3708007f11ea')/Items(4)",
       "SCAcademicYear@odata.navigationLinkUrl": "Web/Lists(guid'ee63869f-f25a-4e40-8d1d-3708007f11ea')/Items(4)/SCAcademicYear",
       "SCAcademicYear": {
         "odata.type": "SP.Data.LIAcademicYearListItem",
-        "odata.id": "2f6f2a39-f9e4-4dec-b35b-2be121c48b33",
+        "odata.id": "20e9a19c-bc4f-4308-9531-6b858b99f790",
         "Id": 1,
         "Title": "2018-2019"
       },
       "SCTimeSlotGroup@odata.navigationLinkUrl": "Web/Lists(guid'ee63869f-f25a-4e40-8d1d-3708007f11ea')/Items(4)/SCTimeSlotGroup",
       "SCTimeSlotGroup": {
         "odata.type": "SP.Data.LITimeSlotGroupListItem",
-        "odata.id": "37b6e6f4-54cb-4922-903f-76f9f665d727",
+        "odata.id": "37ad99fb-b833-42c8-a3fc-3a240dc13826",
         "Id": 4,
         "Title": "Secondary Normal Timing"
       },
@@ -1314,20 +1314,20 @@
     },
     {
       "odata.type": "SP.Data.LIWeekMappingListItem",
-      "odata.id": "7a75baca-0d72-4031-8f2e-ced0ba594ddd",
+      "odata.id": "b9b9cdc8-bd78-4b7f-a891-2a91f831e4e4",
       "odata.etag": "\"3\"",
       "odata.editLink": "Web/Lists(guid'ee63869f-f25a-4e40-8d1d-3708007f11ea')/Items(5)",
       "SCAcademicYear@odata.navigationLinkUrl": "Web/Lists(guid'ee63869f-f25a-4e40-8d1d-3708007f11ea')/Items(5)/SCAcademicYear",
       "SCAcademicYear": {
         "odata.type": "SP.Data.LIAcademicYearListItem",
-        "odata.id": "6c949807-5a06-48da-a320-8fc3bdfe5296",
+        "odata.id": "ec7f27fe-397b-4c18-9180-ef538c490bff",
         "Id": 1,
         "Title": "2018-2019"
       },
       "SCTimeSlotGroup@odata.navigationLinkUrl": "Web/Lists(guid'ee63869f-f25a-4e40-8d1d-3708007f11ea')/Items(5)/SCTimeSlotGroup",
       "SCTimeSlotGroup": {
         "odata.type": "SP.Data.LITimeSlotGroupListItem",
-        "odata.id": "da346fad-25a3-4d00-95a9-54a0d033b0f4",
+        "odata.id": "0f5c98e5-d4fa-4b40-ae5f-e1af3e18d0f7",
         "Id": 4,
         "Title": "Secondary Normal Timing"
       },
@@ -1351,20 +1351,20 @@
     },
     {
       "odata.type": "SP.Data.LIWeekMappingListItem",
-      "odata.id": "8125b76a-17c4-48a6-8251-caa6dffa3678",
+      "odata.id": "7cc345f3-e8e1-422c-bb4d-0750161fec19",
       "odata.etag": "\"1\"",
       "odata.editLink": "Web/Lists(guid'ee63869f-f25a-4e40-8d1d-3708007f11ea')/Items(6)",
       "SCAcademicYear@odata.navigationLinkUrl": "Web/Lists(guid'ee63869f-f25a-4e40-8d1d-3708007f11ea')/Items(6)/SCAcademicYear",
       "SCAcademicYear": {
         "odata.type": "SP.Data.LIAcademicYearListItem",
-        "odata.id": "c8372bfc-990f-43c6-871b-9bfe0872384d",
+        "odata.id": "7dc49e64-9f0b-4b16-bc02-5fde8e230979",
         "Id": 1,
         "Title": "2018-2019"
       },
       "SCTimeSlotGroup@odata.navigationLinkUrl": "Web/Lists(guid'ee63869f-f25a-4e40-8d1d-3708007f11ea')/Items(6)/SCTimeSlotGroup",
       "SCTimeSlotGroup": {
         "odata.type": "SP.Data.LITimeSlotGroupListItem",
-        "odata.id": "351d4d78-8691-41de-b86e-1ec5c554f09b",
+        "odata.id": "78d47903-db3f-497e-ae7a-0cba51e5d9ca",
         "Id": 3,
         "Title": "Primary Normal Timing"
       },
@@ -1388,57 +1388,20 @@
     },
     {
       "odata.type": "SP.Data.LIWeekMappingListItem",
-      "odata.id": "4d79d3af-78d0-4c81-bd0e-25d9d244cde2",
-      "odata.etag": "\"1\"",
-      "odata.editLink": "Web/Lists(guid'ee63869f-f25a-4e40-8d1d-3708007f11ea')/Items(8)",
-      "SCAcademicYear@odata.navigationLinkUrl": "Web/Lists(guid'ee63869f-f25a-4e40-8d1d-3708007f11ea')/Items(8)/SCAcademicYear",
-      "SCAcademicYear": {
-        "odata.type": "SP.Data.LIAcademicYearListItem",
-        "odata.id": "2a07fe94-bd43-406d-ad7d-7c9637cd8bc9",
-        "Id": 1,
-        "Title": "2018-2019"
-      },
-      "SCTimeSlotGroup@odata.navigationLinkUrl": "Web/Lists(guid'ee63869f-f25a-4e40-8d1d-3708007f11ea')/Items(8)/SCTimeSlotGroup",
-      "SCTimeSlotGroup": {
-        "odata.type": "SP.Data.LITimeSlotGroupListItem",
-        "odata.id": "80cb2475-abdf-49c3-a672-c502d6576a61",
-        "Id": 3,
-        "Title": "Primary Normal Timing"
-      },
-      "FileSystemObjectType": 0,
-      "Id": 8,
-      "ServerRedirectedEmbedUri": null,
-      "ServerRedirectedEmbedUrl": "",
-      "ContentTypeId": "0x01006692F9D32E9FD3488E959C71313B17F100ABF519632BF9D54894CE7C197D3F27DC",
-      "Title": "Week 5",
-      "ComplianceAssetId": null,
-      "SCAcademicYearId": 1,
-      "SCTimeSlotGroupId": 3,
-      "SCWeekStartDate": "2018-09-29T20:00:00Z",
-      "Modified": "2019-01-29T15:36:21Z",
-      "Created": "2019-01-29T15:36:21Z",
-      "AuthorId": 9,
-      "EditorId": 9,
-      "OData__UIVersionString": "1.0",
-      "Attachments": false,
-      "GUID": "e865cfd4-58ff-4c63-849f-7c43d00f8c70"
-    },
-    {
-      "odata.type": "SP.Data.LIWeekMappingListItem",
-      "odata.id": "2309d156-0c7a-4ee9-aa8b-a01f6d5057d7",
+      "odata.id": "afb725b8-9e1a-4917-a7a8-7ec9a9de658d",
       "odata.etag": "\"1\"",
       "odata.editLink": "Web/Lists(guid'ee63869f-f25a-4e40-8d1d-3708007f11ea')/Items(7)",
       "SCAcademicYear@odata.navigationLinkUrl": "Web/Lists(guid'ee63869f-f25a-4e40-8d1d-3708007f11ea')/Items(7)/SCAcademicYear",
       "SCAcademicYear": {
         "odata.type": "SP.Data.LIAcademicYearListItem",
-        "odata.id": "79ab5ccb-2a05-4d80-9a36-7141751d74bd",
+        "odata.id": "c826da03-84e5-4e2c-8645-3d3182ed8243",
         "Id": 1,
         "Title": "2018-2019"
       },
       "SCTimeSlotGroup@odata.navigationLinkUrl": "Web/Lists(guid'ee63869f-f25a-4e40-8d1d-3708007f11ea')/Items(7)/SCTimeSlotGroup",
       "SCTimeSlotGroup": {
         "odata.type": "SP.Data.LITimeSlotGroupListItem",
-        "odata.id": "7814ed78-8d04-4d7b-ba35-d9aac030d374",
+        "odata.id": "1c7f3df0-1c7c-459a-9bb1-6c846be74ce7",
         "Id": 3,
         "Title": "Primary Normal Timing"
       },
@@ -1462,20 +1425,20 @@
     },
     {
       "odata.type": "SP.Data.LIWeekMappingListItem",
-      "odata.id": "c5249d73-b4b8-465a-b6b8-e20f7b738368",
+      "odata.id": "5e80db9f-e063-4c2d-815a-22ed178c01d7",
       "odata.etag": "\"1\"",
       "odata.editLink": "Web/Lists(guid'ee63869f-f25a-4e40-8d1d-3708007f11ea')/Items(9)",
       "SCAcademicYear@odata.navigationLinkUrl": "Web/Lists(guid'ee63869f-f25a-4e40-8d1d-3708007f11ea')/Items(9)/SCAcademicYear",
       "SCAcademicYear": {
         "odata.type": "SP.Data.LIAcademicYearListItem",
-        "odata.id": "2b6040f6-51c6-44d7-8c49-4ff257f47fc8",
+        "odata.id": "2d8bfee3-06ef-4d7c-9d63-bbbfe1f5f092",
         "Id": 1,
         "Title": "2018-2019"
       },
       "SCTimeSlotGroup@odata.navigationLinkUrl": "Web/Lists(guid'ee63869f-f25a-4e40-8d1d-3708007f11ea')/Items(9)/SCTimeSlotGroup",
       "SCTimeSlotGroup": {
         "odata.type": "SP.Data.LITimeSlotGroupListItem",
-        "odata.id": "95d99e49-b1ce-4785-aef1-4c0a1bd62231",
+        "odata.id": "a4c7ada2-76f5-470d-91c0-a3fc15d8ba3c",
         "Id": 4,
         "Title": "Secondary Normal Timing"
       },
@@ -1499,20 +1462,57 @@
     },
     {
       "odata.type": "SP.Data.LIWeekMappingListItem",
-      "odata.id": "edf88040-10e0-483c-a78b-a761a4531903",
+      "odata.id": "8a48617b-d632-43f0-b61d-2e9f398d3611",
+      "odata.etag": "\"1\"",
+      "odata.editLink": "Web/Lists(guid'ee63869f-f25a-4e40-8d1d-3708007f11ea')/Items(8)",
+      "SCAcademicYear@odata.navigationLinkUrl": "Web/Lists(guid'ee63869f-f25a-4e40-8d1d-3708007f11ea')/Items(8)/SCAcademicYear",
+      "SCAcademicYear": {
+        "odata.type": "SP.Data.LIAcademicYearListItem",
+        "odata.id": "d9f47ff5-3b77-47d0-9070-d9d906cf2c2a",
+        "Id": 1,
+        "Title": "2018-2019"
+      },
+      "SCTimeSlotGroup@odata.navigationLinkUrl": "Web/Lists(guid'ee63869f-f25a-4e40-8d1d-3708007f11ea')/Items(8)/SCTimeSlotGroup",
+      "SCTimeSlotGroup": {
+        "odata.type": "SP.Data.LITimeSlotGroupListItem",
+        "odata.id": "5eb5a8ee-4351-458f-8804-6aff78869ce9",
+        "Id": 3,
+        "Title": "Primary Normal Timing"
+      },
+      "FileSystemObjectType": 0,
+      "Id": 8,
+      "ServerRedirectedEmbedUri": null,
+      "ServerRedirectedEmbedUrl": "",
+      "ContentTypeId": "0x01006692F9D32E9FD3488E959C71313B17F100ABF519632BF9D54894CE7C197D3F27DC",
+      "Title": "Week 5",
+      "ComplianceAssetId": null,
+      "SCAcademicYearId": 1,
+      "SCTimeSlotGroupId": 3,
+      "SCWeekStartDate": "2018-09-29T20:00:00Z",
+      "Modified": "2019-01-29T15:36:21Z",
+      "Created": "2019-01-29T15:36:21Z",
+      "AuthorId": 9,
+      "EditorId": 9,
+      "OData__UIVersionString": "1.0",
+      "Attachments": false,
+      "GUID": "e865cfd4-58ff-4c63-849f-7c43d00f8c70"
+    },
+    {
+      "odata.type": "SP.Data.LIWeekMappingListItem",
+      "odata.id": "f44558be-65b3-4ed7-bd48-7edf5001e01e",
       "odata.etag": "\"1\"",
       "odata.editLink": "Web/Lists(guid'ee63869f-f25a-4e40-8d1d-3708007f11ea')/Items(10)",
       "SCAcademicYear@odata.navigationLinkUrl": "Web/Lists(guid'ee63869f-f25a-4e40-8d1d-3708007f11ea')/Items(10)/SCAcademicYear",
       "SCAcademicYear": {
         "odata.type": "SP.Data.LIAcademicYearListItem",
-        "odata.id": "279e97ef-284c-47b3-a5ab-ccf29c524b6b",
+        "odata.id": "5be02e8e-5e06-4938-a423-f83345ad9318",
         "Id": 1,
         "Title": "2018-2019"
       },
       "SCTimeSlotGroup@odata.navigationLinkUrl": "Web/Lists(guid'ee63869f-f25a-4e40-8d1d-3708007f11ea')/Items(10)/SCTimeSlotGroup",
       "SCTimeSlotGroup": {
         "odata.type": "SP.Data.LITimeSlotGroupListItem",
-        "odata.id": "f65db9d2-0514-4069-8cc1-324b7b5cd91f",
+        "odata.id": "41d3d683-cd7d-4f60-8a74-12ce1068b8db",
         "Id": 4,
         "Title": "Secondary Normal Timing"
       },
@@ -1538,13 +1538,13 @@
   "LIBooking": [
     {
       "odata.type": "SP.Data.LIBookingListItem",
-      "odata.id": "88989924-b811-4384-a7ce-7dcdd4727a41",
+      "odata.id": "d1ca65cd-f290-453e-94c3-a9a6f75253c6",
       "odata.etag": "\"1\"",
       "odata.editLink": "Web/Lists(guid'f7499816-dcfa-424c-a63b-e25337751dfd')/Items(93)",
       "SCResource@odata.navigationLinkUrl": "Web/Lists(guid'f7499816-dcfa-424c-a63b-e25337751dfd')/Items(93)/SCResource",
       "SCResource": {
         "odata.type": "SP.Data.LIRescourceListItem",
-        "odata.id": "43d09b95-e6d8-464a-a9ea-14dbf9c5000f",
+        "odata.id": "2572aead-23eb-4fab-9a9d-9aee2856391e",
         "Id": 5,
         "Title": "U8"
       },
@@ -1552,7 +1552,7 @@
       "SCTimeSlot@odata.navigationLinkUrl": "Web/Lists(guid'f7499816-dcfa-424c-a63b-e25337751dfd')/Items(93)/SCTimeSlot",
       "SCTimeSlot": {
         "odata.type": "SP.Data.LITimeSlotListItem",
-        "odata.id": "0af54b1a-28d5-47e5-9929-b6ee418c6fd1",
+        "odata.id": "c3ade4fc-8c89-4948-8094-d6296626b529",
         "Id": 4,
         "Title": "Period 1"
       },
@@ -1580,13 +1580,13 @@
     },
     {
       "odata.type": "SP.Data.LIBookingListItem",
-      "odata.id": "c7ba0f88-dba1-434f-9ccc-4e5fe648aa66",
+      "odata.id": "6fe7b78e-d156-4ab5-aac3-c75d68d9df40",
       "odata.etag": "\"1\"",
       "odata.editLink": "Web/Lists(guid'f7499816-dcfa-424c-a63b-e25337751dfd')/Items(94)",
       "SCResource@odata.navigationLinkUrl": "Web/Lists(guid'f7499816-dcfa-424c-a63b-e25337751dfd')/Items(94)/SCResource",
       "SCResource": {
         "odata.type": "SP.Data.LIRescourceListItem",
-        "odata.id": "04a659f8-7ba7-42c5-9f4e-ac0e8bc1a885",
+        "odata.id": "69a14612-a590-4d1c-a647-edec070f93b9",
         "Id": 5,
         "Title": "U8"
       },
@@ -1594,7 +1594,7 @@
       "SCTimeSlot@odata.navigationLinkUrl": "Web/Lists(guid'f7499816-dcfa-424c-a63b-e25337751dfd')/Items(94)/SCTimeSlot",
       "SCTimeSlot": {
         "odata.type": "SP.Data.LITimeSlotListItem",
-        "odata.id": "d7fe0970-aa01-43a9-a379-b2da63da34ea",
+        "odata.id": "98d3527a-291f-44e2-9afd-ae792ab2e3ef",
         "Id": 5,
         "Title": "Period 2"
       },
@@ -1622,13 +1622,55 @@
     },
     {
       "odata.type": "SP.Data.LIBookingListItem",
-      "odata.id": "01cb1ee4-96f4-4eb1-8838-cfa1dbfab29b",
+      "odata.id": "c0b5b138-c743-4d60-91e7-a8c63121bb91",
+      "odata.etag": "\"1\"",
+      "odata.editLink": "Web/Lists(guid'f7499816-dcfa-424c-a63b-e25337751dfd')/Items(97)",
+      "SCResource@odata.navigationLinkUrl": "Web/Lists(guid'f7499816-dcfa-424c-a63b-e25337751dfd')/Items(97)/SCResource",
+      "SCResource": {
+        "odata.type": "SP.Data.LIRescourceListItem",
+        "odata.id": "92f58817-07ea-4135-984b-6e4c44cf489c",
+        "Id": 5,
+        "Title": "U8"
+      },
+      "SCCustodian@odata.navigationLinkUrl": "Web/Lists(guid'f7499816-dcfa-424c-a63b-e25337751dfd')/Items(97)/SCCustodian",
+      "SCTimeSlot@odata.navigationLinkUrl": "Web/Lists(guid'f7499816-dcfa-424c-a63b-e25337751dfd')/Items(97)/SCTimeSlot",
+      "SCTimeSlot": {
+        "odata.type": "SP.Data.LITimeSlotListItem",
+        "odata.id": "575dacd4-8441-41a5-8eef-36d71e9fe1d7",
+        "Id": 4,
+        "Title": "Period 1"
+      },
+      "FileSystemObjectType": 0,
+      "Id": 97,
+      "ServerRedirectedEmbedUri": null,
+      "ServerRedirectedEmbedUrl": "",
+      "ContentTypeId": "0x01005849D156CB4A404F841DE7332F79B12500B9624BEA49E78A499BEC52D3080BB8B5",
+      "Title": null,
+      "ComplianceAssetId": null,
+      "SCResourceId": 5,
+      "SCCustodianId": null,
+      "SCCustodianStringId": null,
+      "SCComments": "<div class=\"ExternalClass71E4406879B14762A80001D981602061\">pm10</div>",
+      "SCCount": 1,
+      "SCDate": "2019-02-07T04:00:00Z",
+      "SCTimeSlotId": 4,
+      "Modified": "2019-02-07T10:31:17Z",
+      "Created": "2019-02-07T10:31:17Z",
+      "AuthorId": 9,
+      "EditorId": 9,
+      "OData__UIVersionString": "1.0",
+      "Attachments": false,
+      "GUID": "701d02b1-b872-4cf0-8e3d-b7b3a8bfb650"
+    },
+    {
+      "odata.type": "SP.Data.LIBookingListItem",
+      "odata.id": "24a0b293-3dfc-4624-9201-f779e4afacdf",
       "odata.etag": "\"1\"",
       "odata.editLink": "Web/Lists(guid'f7499816-dcfa-424c-a63b-e25337751dfd')/Items(96)",
       "SCResource@odata.navigationLinkUrl": "Web/Lists(guid'f7499816-dcfa-424c-a63b-e25337751dfd')/Items(96)/SCResource",
       "SCResource": {
         "odata.type": "SP.Data.LIRescourceListItem",
-        "odata.id": "bccd95a1-d628-4fac-85ef-dc80b37032ad",
+        "odata.id": "a1b981ba-fd86-4810-b959-cbb000767d76",
         "Id": 6,
         "Title": "M2"
       },
@@ -1636,7 +1678,7 @@
       "SCTimeSlot@odata.navigationLinkUrl": "Web/Lists(guid'f7499816-dcfa-424c-a63b-e25337751dfd')/Items(96)/SCTimeSlot",
       "SCTimeSlot": {
         "odata.type": "SP.Data.LITimeSlotListItem",
-        "odata.id": "cda02edc-4629-4066-9f75-043ec4ab3e21",
+        "odata.id": "4decdb52-a1da-4a15-b526-4578213aedc2",
         "Id": 9,
         "Title": "Period 4"
       },
@@ -1661,6 +1703,132 @@
       "OData__UIVersionString": "1.0",
       "Attachments": false,
       "GUID": "075510e2-c9a0-4c0d-905a-1644bc87770b"
+    },
+    {
+      "odata.type": "SP.Data.LIBookingListItem",
+      "odata.id": "732c73c4-7d69-4de6-bd8a-0757e802cb87",
+      "odata.etag": "\"1\"",
+      "odata.editLink": "Web/Lists(guid'f7499816-dcfa-424c-a63b-e25337751dfd')/Items(98)",
+      "SCResource@odata.navigationLinkUrl": "Web/Lists(guid'f7499816-dcfa-424c-a63b-e25337751dfd')/Items(98)/SCResource",
+      "SCResource": {
+        "odata.type": "SP.Data.LIRescourceListItem",
+        "odata.id": "5b8faa68-4e8d-440c-ba56-8ce43d8c508a",
+        "Id": 5,
+        "Title": "U8"
+      },
+      "SCCustodian@odata.navigationLinkUrl": "Web/Lists(guid'f7499816-dcfa-424c-a63b-e25337751dfd')/Items(98)/SCCustodian",
+      "SCTimeSlot@odata.navigationLinkUrl": "Web/Lists(guid'f7499816-dcfa-424c-a63b-e25337751dfd')/Items(98)/SCTimeSlot",
+      "SCTimeSlot": {
+        "odata.type": "SP.Data.LITimeSlotListItem",
+        "odata.id": "fda6c52d-1cd2-4d25-9c07-9949035bbcaa",
+        "Id": 8,
+        "Title": "Period 3"
+      },
+      "FileSystemObjectType": 0,
+      "Id": 98,
+      "ServerRedirectedEmbedUri": null,
+      "ServerRedirectedEmbedUrl": "",
+      "ContentTypeId": "0x01005849D156CB4A404F841DE7332F79B12500B9624BEA49E78A499BEC52D3080BB8B5",
+      "Title": null,
+      "ComplianceAssetId": null,
+      "SCResourceId": 5,
+      "SCCustodianId": null,
+      "SCCustodianStringId": null,
+      "SCComments": "<div class=\"ExternalClassD7A082720CDD4061B016912E4EE0889E\">pm10</div>",
+      "SCCount": 1,
+      "SCDate": "2019-02-03T06:00:00Z",
+      "SCTimeSlotId": 8,
+      "Modified": "2019-02-07T10:35:26Z",
+      "Created": "2019-02-07T10:35:26Z",
+      "AuthorId": 9,
+      "EditorId": 9,
+      "OData__UIVersionString": "1.0",
+      "Attachments": false,
+      "GUID": "b95c8d93-09d0-4810-a7a5-2359bd98f353"
+    },
+    {
+      "odata.type": "SP.Data.LIBookingListItem",
+      "odata.id": "b9f39ae0-cc0f-4a06-97a0-ca51ab946841",
+      "odata.etag": "\"1\"",
+      "odata.editLink": "Web/Lists(guid'f7499816-dcfa-424c-a63b-e25337751dfd')/Items(99)",
+      "SCResource@odata.navigationLinkUrl": "Web/Lists(guid'f7499816-dcfa-424c-a63b-e25337751dfd')/Items(99)/SCResource",
+      "SCResource": {
+        "odata.type": "SP.Data.LIRescourceListItem",
+        "odata.id": "63a7e440-cb1f-43e2-b6b9-ee06899e7cc5",
+        "Id": 5,
+        "Title": "U8"
+      },
+      "SCCustodian@odata.navigationLinkUrl": "Web/Lists(guid'f7499816-dcfa-424c-a63b-e25337751dfd')/Items(99)/SCCustodian",
+      "SCTimeSlot@odata.navigationLinkUrl": "Web/Lists(guid'f7499816-dcfa-424c-a63b-e25337751dfd')/Items(99)/SCTimeSlot",
+      "SCTimeSlot": {
+        "odata.type": "SP.Data.LITimeSlotListItem",
+        "odata.id": "800872df-080e-420c-b43d-0ad1e9bdb200",
+        "Id": 9,
+        "Title": "Period 4"
+      },
+      "FileSystemObjectType": 0,
+      "Id": 99,
+      "ServerRedirectedEmbedUri": null,
+      "ServerRedirectedEmbedUrl": "",
+      "ContentTypeId": "0x01005849D156CB4A404F841DE7332F79B12500B9624BEA49E78A499BEC52D3080BB8B5",
+      "Title": null,
+      "ComplianceAssetId": null,
+      "SCResourceId": 5,
+      "SCCustodianId": null,
+      "SCCustodianStringId": null,
+      "SCComments": "<div class=\"ExternalClass2C9A41984D7144BD84B83B95B234CA11\">pm10</div>",
+      "SCCount": 1,
+      "SCDate": "2019-02-04T07:00:00Z",
+      "SCTimeSlotId": 9,
+      "Modified": "2019-02-07T10:35:33Z",
+      "Created": "2019-02-07T10:35:33Z",
+      "AuthorId": 9,
+      "EditorId": 9,
+      "OData__UIVersionString": "1.0",
+      "Attachments": false,
+      "GUID": "9563510b-ba66-4bea-bfde-a4ae8ef35a4e"
+    },
+    {
+      "odata.type": "SP.Data.LIBookingListItem",
+      "odata.id": "d108d066-c98d-4ca1-8779-946ea734bb89",
+      "odata.etag": "\"1\"",
+      "odata.editLink": "Web/Lists(guid'f7499816-dcfa-424c-a63b-e25337751dfd')/Items(100)",
+      "SCResource@odata.navigationLinkUrl": "Web/Lists(guid'f7499816-dcfa-424c-a63b-e25337751dfd')/Items(100)/SCResource",
+      "SCResource": {
+        "odata.type": "SP.Data.LIRescourceListItem",
+        "odata.id": "87616483-d89b-4c95-ae5c-65e718c2bca0",
+        "Id": 5,
+        "Title": "U8"
+      },
+      "SCCustodian@odata.navigationLinkUrl": "Web/Lists(guid'f7499816-dcfa-424c-a63b-e25337751dfd')/Items(100)/SCCustodian",
+      "SCTimeSlot@odata.navigationLinkUrl": "Web/Lists(guid'f7499816-dcfa-424c-a63b-e25337751dfd')/Items(100)/SCTimeSlot",
+      "SCTimeSlot": {
+        "odata.type": "SP.Data.LITimeSlotListItem",
+        "odata.id": "152b9291-fd22-48e8-b218-6f0634235a2d",
+        "Id": 9,
+        "Title": "Period 4"
+      },
+      "FileSystemObjectType": 0,
+      "Id": 100,
+      "ServerRedirectedEmbedUri": null,
+      "ServerRedirectedEmbedUrl": "",
+      "ContentTypeId": "0x01005849D156CB4A404F841DE7332F79B12500B9624BEA49E78A499BEC52D3080BB8B5",
+      "Title": null,
+      "ComplianceAssetId": null,
+      "SCResourceId": 5,
+      "SCCustodianId": null,
+      "SCCustodianStringId": null,
+      "SCComments": "<div class=\"ExternalClass46984267B80D4ABB951F011C7F4B1D83\">mg10</div>",
+      "SCCount": 1,
+      "SCDate": "2019-02-06T07:00:00Z",
+      "SCTimeSlotId": 9,
+      "Modified": "2019-02-07T10:35:41Z",
+      "Created": "2019-02-07T10:35:41Z",
+      "AuthorId": 9,
+      "EditorId": 9,
+      "OData__UIVersionString": "1.0",
+      "Attachments": false,
+      "GUID": "502254b4-35f5-402a-94ba-066897cacfe3"
     }
   ],
   "LIBookingAccessories": []
