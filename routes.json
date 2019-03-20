@@ -1,5 +1,8 @@
 {
   "/api/*": "/$1",
   "/schools/dis/_api/web/lists/getbytitle\\(':title'\\)/items": "/:title",
-  "/sites/resourcebooking/_api/web/lists/getbytitle\\(':title'\\)/items": "/:title"
+  "/sites/resourcebooking/_api/web/lists/getbytitle\\(':title'\\)/items": "/:title",
+  "/db": "/db",
+  "/reload": "/reload",
+  "/reset": "/reset"
 }

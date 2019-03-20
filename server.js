@@ -2,8 +2,10 @@ const path = require('path');
 const jsonServer = require('json-server');
 const axios = require('axios');
 const server = jsonServer.create();
-const router = jsonServer.router(path.join(__dirname, 'db.json'));
+const dbPath = path.join(__dirname, 'db.json');
+const router = jsonServer.router(dbPath);
 const middlewares = jsonServer.defaults();
+const fsExtra = require('fs-extra');
 const jServerPort = 3005;
 
 const settings = {
@@ -23,78 +25,82 @@ server.use(middlewares);
 server.use(
   jsonServer.rewriter({
     '/api/*': '/$1',
-    '/blog/:resource/:id/show': '/:resource/:id'
+    "/schools/dis/_api/web/lists/getbytitle\\(':title'\\)/items*": '/:title',
+    "/sites/resourcebooking/_api/web/lists/getbytitle\\(':title'\\)/items*": '/:title',
+    '/sites/resourcebooking/_api/web/AvailableContentTypes*': '/AvailableContentTypes',
+    "/sites/resourcebooking/_api/web/fields/GetByTitle\\(':title'\\)*": '/:title',
+    '/sites/resourcebooking/_api/web/siteusers*': '/siteusers',
+    '/db': '/db',
+    '/reload': '/reload',
+    '/reset': '/reset'
   })
 );
-server.use(jsonServer.rewriter(require('./routes.json')));
+// server.use(jsonServer.rewriter(require('./routes.json')));
 
 // To handle POST, PUT and PATCH you need to use a body-parser
 // You can use the one used by JSON Server
 server.use(jsonServer.bodyParser);
 
-// Add custom routes before JSON Server router
-server.get('/echo', (req, res) => {
-  res.jsonp(req.query);
-});
-
 server.get('/reset', (req, res) => {
-  console.log(
-    `::: Reseting db on JSON Server is running on port ${jServerPort}`
-  );
-  router.db.setState(defaultDb);
-  server.db = router.db;
-  server.db.setState(server.db.getState());
-  res.sendStatus(201);
+  console.log(`::: Reseting db on JSON Server is running on port ${jServerPort}`);
+  const defaultDb = Object.keys(spurls).reduce((prev, next) => {
+    prev[next] = [];
+    return prev;
+  }, {});
+  fsExtra.outputJSONSync(dbPath, defaultDb, null, err => {
+    console.log(err);
+  });
+  res.redirect(`http://localhost:${jServerPort}`);
 });
 
+const headers = { headers: { Accept: 'application/json;odata=nometadata', 'Content-Type': 'application/json;odata=nometadata' } };
 server.get('/reload', (req, res) => {
-  console.log(
-    `::: Reloading db on JSON Server is running on port ${jServerPort}`
-  );
+  console.log(`::: Reloading db on JSON Server is running on port ${jServerPort}`);
+  const defaultDb = Object.keys(spurls).reduce((prev, next) => {
+    prev[next] = [];
+    return prev;
+  }, {});
   let $q = [];
   Object.keys(spurls).forEach(k => {
-    console.log(k);
+    console.log(`Loading data for ${k}`);
     $q.push(
-      axios.get(spurls[k]).then(
-        // res => console.log(res.data.value[0]['Id'], res.data.value[0]["odata.type"]),
-        res =>
-          res.data.value.forEach(item => {
-            delete item['ID'];
-            return axios
-              .post(`http://localhost:${jServerPort}/${k}`, item)
-              .then(d => {
-                console.log(d.data['Id'], d.data['odata.type']);
-                return d;
-              })
-              .catch(e => {
-                // console.log(e.response);
-                const { status, statusText, config } = e.response;
-                const { data } = config;
-                console.log({ status, statusText, data: JSON.parse(data) });
-              }); //[ 'status', 'statusText', 'headers', 'config', 'request', 'data' ]
-          }),
-        err => console.error(err)
-      )
+      axios.get(spurls[k], headers).then(response => {
+        defaultDb[k] = (response.data.value || response.data.Choices).map(item => {
+          item.hasOwnProperty('ID') && delete item['ID'];
+          return item;
+        });
+      })
     );
   });
   Promise.all($q).then(() => {
-    res.sendStatus(201);
+    fsExtra.outputJSONSync(dbPath, defaultDb, null, err => {
+      console.log(err);
+    });
+    res.redirect(`http://localhost:${jServerPort}`);
   });
 });
 
-//const defaultDb1 = Object.keys(spurls).map((k) => ({ [k]: [] })); console.log(defaultDb1);
-const defaultDb = Object.keys(spurls).reduce((prev, next) => {
-  prev[next] = [];
-  return prev;
-}, {});
+// In this example, returned resources will be wrapped in a body property
+router.render = (req, res) => {
+  switch (req.url.trim().toLowerCase()) {
+    case '/SCCategory'.trim().toLowerCase():
+      res.jsonp({
+        Choices: res.locals.data
+      });
+      break;
+    default:
+      console.log(req.url.trim(), req.url.trim().toLowerCase() === '/SCCategory'.trim().toLowerCase());
+      res.jsonp({
+        value: res.locals.data
+      });
+      break;
+  }
+};
+
 router.db._.id = 'Id';
 server.use(router);
 server.listen(jServerPort, () => {
   console.log(`JSON Server is running on port ${jServerPort}`);
-  console.log(
-    `...... To RESET DB visit 'http://localhost:${jServerPort}/reset/`
-  );
-  console.log(
-    `...... To RELOAD DB visit 'http://localhost:${jServerPort}/reload/`
-  );
+  console.log(`...... To RESET DB visit 'http://localhost:${jServerPort}/reset/`);
+  console.log(`...... To RELOAD DB visit 'http://localhost:${jServerPort}/reload/`);
 });
